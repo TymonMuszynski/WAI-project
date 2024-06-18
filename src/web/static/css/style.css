@@ -1,0 +1,458 @@
+a:link.ui-button,
+a:visited.ui-button {
+    color: #454545;
+    text-decoration: none
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX8.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf) format('truetype')
+}
+
+body {
+    margin: 0
+}
+
+body,
+body span {
+    font-family: Montserrat, sans-serif;
+}
+
+nav,
+ul {
+    justify-content: space-between
+}
+
+.line,
+nav {
+    position: absolute
+}
+
+nav {
+    z-index: 1;
+    height: 7vh;
+    width: 100vw
+}
+
+.line {
+    width: 92vw;
+    height: 2px;
+    background: #fff;
+    margin-top: 7vh;
+    margin-left: 4vw
+}
+
+ul {
+    width: 30vw;
+    margin-right: 4vw
+}
+
+.toggle-nav,
+nav,
+ul,
+ul li {
+    display: flex;
+    align-items: center
+}
+
+ul li {
+    width: 30%;
+    justify-content: center;
+    height: 7vh
+}
+
+a {
+    text-decoration: none
+}
+
+ul li span {
+    color: #fff;
+    font-size: 2.5vh
+}
+
+.logo-container {
+    margin-left: 6vw
+}
+
+.logo-container span {
+    font-size: 2.6vh;
+    color: #1790f3
+}
+
+.toggle-nav {
+    display: initial;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    width: 18vw;
+    height: 15vh;
+    top: 7.5vh;
+    left: 65vw;
+    border-radius: 2vh;
+    border: 2px solid #fff;
+    background: #000
+}
+
+.toggle-nav div,
+ul li {
+    cursor: pointer
+}
+
+.toggle-nav div a {
+    font-size: 2vh;
+    color: #fff
+}
+
+.toggle-nav div:hover {
+    background: #2e2e2e
+}
+
+.home-segment-container {
+    display: flex;
+    background: #000;
+    width: 100vw;
+    height: 100vh
+}
+
+.container {
+    height: 100vh;
+    width: 45vw;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column
+}
+
+.title {
+    margin-top: 15vh
+}
+
+.title span {
+    font-size: 4.6vw;
+    font-weight: 600;
+    color: #fff
+}
+
+.home-segment-container .container .info,
+.title {
+    width: 80%
+}
+
+.info span {
+    font-size: 2.8vh;
+    color: #fff
+}
+
+.button-container {
+    padding-top: 4%;
+    grid-gap: 30px;
+    gap: 30px
+}
+
+.button,
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.button {
+    width: 40%;
+    background: #1790f3;
+    border-radius: 50vh;
+    height: 7vh
+}
+
+.button span {
+    font-weight: 600
+}
+
+.button span,
+.learn-more span {
+    color: #fff;
+    font-size: 2.6vh
+}
+
+.gif-container {
+    width: 50vw;
+    height: 100vh
+}
+
+.gif-container img {
+    width: 50vw
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center
+}
+
+/* gallery */
+
+.gallery-segment-container{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-image-container{
+    height: 7vh;
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-image-container span{
+    font-size: 2vh;
+    color: white;
+}
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+}
+.pagination{
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5vh;
+    background: white;
+}
+.pagination svg{
+
+    height: 3vh;
+ 
+}
+
+/* add Image to gallery  */
+
+.form-image-container{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.form-image-container span{
+ color: white;
+}
+
+.form-image-container form {
+    height: 70vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.file-button{
+    background: white;
+}
+
+.submit-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 7vh;
+    background: #1790f3;
+    border-radius: 50vh;
+    border: 1px solid #1790f3;
+    color: white;
+    font-size: 2.6vh;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.text-input {
+    width: 20vw;
+    height: 4vh;
+    border: 0;
+    border-bottom: 2px solid white;
+    background: #000;
+    font-size: 2.5vh;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.text-input::placeholder {
+
+    color: white;
+   
+}
+
+/* image */
+.image-container{
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius: 5vh;
+
+}
+
+.data_container{
+    color: white;
+}
+/* .image-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+} */
